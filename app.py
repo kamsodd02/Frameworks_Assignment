@@ -4,6 +4,12 @@ import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 import re
 from collections import Counter
+from download_data import download_data
+
+# Ensure dataset is available before loading
+download_data()
+
+df = pd.read_csv("metadata_subset.csv")
 
 # -----------------------------
 # Load Data

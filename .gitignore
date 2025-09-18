@@ -1,0 +1,40 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore large datasets (CSV, Excel, etc.)
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.json
+
+# If you only want to ignore *specific* CSVs, comment out above and add paths:
+# metadata.csv
+# metadata_subset.csv
+
+# Ignore image outputs (plots, wordclouds, etc.)
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Ignore logs
+*.log
+
+# Ignore Streamlit temporary files
+.streamlit/
+
+# Ignore OS-specific junk
+.DS_Store
+Thumbs.db
